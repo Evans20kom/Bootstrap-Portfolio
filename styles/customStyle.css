@@ -4,10 +4,21 @@
     --main_alt: #DEE2FF;
     --inverse_alt: #EFD3D7;
     --background_colour: #FEEAFA;
+
     /* Colour scheme - Trending Colours: 
   Website, squarespace-coolours - Idea provided by: Mike Thomas */
   }
 
   body {
     background-color: var(--background_colour);
+  }
+
+
+  img, .navbarLogo {
+    max-width: 8%;
+    height: auto;
+  }
+
+  .navbar-brand h1 {
+    font-size: xx-large;
   }
