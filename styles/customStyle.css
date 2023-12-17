@@ -21,11 +21,7 @@
     background-color: var(--main_colour);
   }
 
-  nav.navbarlia {
-    color: var(--inverse_colour);
-  }
-
-  img, .navbarLogo {
+  .navbarLogo {
     max-width: 8%;
     height: auto;
   }
@@ -36,10 +32,16 @@
 
   .profilePhoto {
     padding-right: 30px;
+    width: 12rem;
+    height: auto;
   }
 
 
   .jumbotron {
     background-color: var(--inverse_colour);
     
+  }
+
+  .cardContainer {
+    text-align: center;
   }
