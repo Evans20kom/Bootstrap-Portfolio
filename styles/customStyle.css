@@ -13,6 +13,9 @@
     background-color: var(--background_colour);
   }
 
+  nav {
+    color: var(--main_colour) !important;
+  }
 
   img, .navbarLogo {
     max-width: 8%;
@@ -21,4 +24,13 @@
 
   .navbar-brand h1 {
     font-size: xx-large;
+  }
+
+  .profilePhoto {
+    padding-right: 30px;
+  }
+
+
+  .jumbotron {
+    background-color: var(--main_colour);
   }
