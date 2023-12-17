@@ -13,8 +13,16 @@
     background-color: var(--background_colour);
   }
 
-  nav {
-    color: var(--main_colour) !important;
+  a {
+    text-decoration: none !important;
+  }
+
+  .navbar-custom {
+    background-color: var(--main_colour);
+  }
+
+  nav.navbarlia {
+    color: var(--inverse_colour);
   }
 
   img, .navbarLogo {
@@ -32,5 +40,6 @@
 
 
   .jumbotron {
-    background-color: var(--main_colour);
+    background-color: var(--inverse_colour);
+    
   }
