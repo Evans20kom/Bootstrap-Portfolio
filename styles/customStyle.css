@@ -13,6 +13,17 @@
     background-color: var(--background_colour);
   }
 
+  a {
+    text-decoration: none !important;
+  }
+
+  .navbar-custom {
+    background-color: var(--main_colour);
+  }
+
+  nav.navbarlia {
+    color: var(--inverse_colour);
+  }
 
   img, .navbarLogo {
     max-width: 8%;
@@ -21,4 +32,14 @@
 
   .navbar-brand h1 {
     font-size: xx-large;
+  }
+
+  .profilePhoto {
+    padding-right: 30px;
+  }
+
+
+  .jumbotron {
+    background-color: var(--inverse_colour);
+    
   }
