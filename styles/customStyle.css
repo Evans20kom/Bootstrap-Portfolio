@@ -46,11 +46,26 @@
     text-align: center;
   }
 
+  .cardContainer .card {
+    background-color: var(--background_colour);
+    border: var(--background_colour);
+  }
+
   .card-img-top {
     display: block;
     width: 100%;
     height: 15vw;
     object-fit: cover;
+  }
+
+  .btn {
+    background-color: var(--inverse_alt);
+    border: var(--inverse_colour);
+  }
+
+  .btn:hover {
+    background-color: var(--inverse_colour);
+    border: var(--inverse_alt);
   }
 
   .cardContainer a{
