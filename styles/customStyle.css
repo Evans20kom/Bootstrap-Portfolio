@@ -7,19 +7,17 @@
 
     /* Colour scheme - Trending Colours: 
   Website, squarespace-coolours - Idea provided by: Mike Thomas */
-  }
+  
 
   body {
     background-color: var(--background_colour);
   }
-/*
-  a {
-    text-decoration: none !important;
-  }
-*/
+
   .navbar-custom {
     background-color: var(--main_colour);
     color: var(--inverse_colour);
+    position: fixed;
+    width: 100%;
   }
 
   #navbarSupportedContent li a{
@@ -37,16 +35,15 @@
     font-size: xx-large;
   }
 
+  .jumbotron {
+    background-color: var(--inverse_colour);
+    padding: 10%;   
+  }
+
   .profilePhoto {
     padding-right: 30px;
     width: 12rem;
     height: auto;
-  }
-
-
-  .jumbotron {
-    background-color: var(--inverse_colour);
-    
   }
 
   .cardContainer {
