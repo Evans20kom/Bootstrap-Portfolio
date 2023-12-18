@@ -41,6 +41,14 @@ Contributed website for selection of colour scheme (https://coolors.co/)
 ### Mike Friel
 Higlighted lack of jumbotron in Bootstrap 5 - Led to use of Bootstrap 4 for current project.
 
+### Websites Referenced
+<ul>
+<li>https://getbootstrap.com/docs/4.6/getting-started/introduction/</li>
+<li>https://www.prepbootstrap.com/bootstrap-template/bootstrap-navbar-custom</li>
+<li>https://stackoverflow.com/</li>
+
+</ul>
+
 ## License
 
 MIT License
