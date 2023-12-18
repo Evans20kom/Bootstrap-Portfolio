@@ -78,3 +78,15 @@
   .cardContainer a{
     color: var(--main_colour);
   }
+
+  footer {
+    background-color: var(--main_colour);
+    color: var(--inverse_colour);
+    font-size: large;
+    align-items: left;
+  }
+  footer h3 a {
+  color: var(--inverse_colour);
+  font-size: large;
+  text-align: left;
+}
