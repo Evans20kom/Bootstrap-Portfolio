@@ -12,13 +12,20 @@
   body {
     background-color: var(--background_colour);
   }
-
+/*
   a {
     text-decoration: none !important;
   }
-
+*/
   .navbar-custom {
     background-color: var(--main_colour);
+    color: var(--inverse_colour);
+  }
+
+  #navbarSupportedContent li a{
+    color: var(--inverse_colour);
+    font-size: large; 
+    font-weight: bold;
   }
 
   .navbarLogo {
