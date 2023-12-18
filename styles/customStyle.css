@@ -52,3 +52,7 @@
     height: 15vw;
     object-fit: cover;
   }
+
+  .cardContainer a{
+    color: var(--main_colour);
+  }
