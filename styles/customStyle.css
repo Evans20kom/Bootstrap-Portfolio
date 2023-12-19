@@ -87,3 +87,7 @@
   font-size: large;
   text-align: left;
 }
+
+footer .btn {
+  background-color: transparent;
+}
