@@ -13,6 +13,8 @@
     background-color: var(--background_colour);
   }
 
+  /* Adding the colour scheme to the navbar; fixing position to top;
+  bar resized after fixing: corrected by setting witdth */
   .navbar-custom {
     background-color: var(--main_colour);
     color: var(--inverse_colour);
@@ -20,12 +22,14 @@
     width: 100%;
   }
 
+  /* changing style of navbar elements */
   #navbarSupportedContent li a{
     color: var(--inverse_colour);
     font-size: large; 
     font-weight: bold;
   }
 
+  /* custom logo created to be the first letter of the Developer's name */
   .navbarLogo {
     max-width: 8%;
     height: auto;
@@ -35,6 +39,7 @@
     font-size: xx-large;
   }
 
+  /* background colour to match colour scheme; padding added to space navbar away from jumbotron elements */
   .jumbotron {
     background-color: var(--inverse_colour);
     padding: 10%;   
@@ -50,11 +55,13 @@
     text-align: center;
   }
 
+  /* card style changed to create illusion of blending into background */
   .cardContainer .card {
     background-color: var(--background_colour);
     border: var(--background_colour);
   }
 
+  /* card images fixed height to create equal height for all card elements */
   .card-img-top {
     display: block;
     width: 100%;
@@ -62,19 +69,23 @@
     object-fit: cover;
   }
 
+  /* button + hover effect: custom button design - consistent with colour scheme */
   .btn {
     background-color: var(--inverse_alt);
     border: var(--inverse_colour);
   }
+
 
   .btn:hover {
     background-color: var(--inverse_colour);
     border: var(--inverse_alt);
   }
 
+  /* card elements consistent with colour scheme */
   .cardContainer a{
     color: var(--main_colour);
   }
+
 
   footer {
     background-color: var(--main_colour);
@@ -82,6 +93,7 @@
     font-size: large;
     align-items: left;
   }
+  
   footer h3 a {
   color: var(--inverse_colour);
   font-size: large;
